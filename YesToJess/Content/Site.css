@@ -1,0 +1,101 @@
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom right, black, purple,black,purple,black,purple);
+}
+
+.grad {
+    background-image: linear-gradient(to bottom right, black, purple,black,purple,black,purple);
+}
+
+.bg-blue {
+    background-color: rgba(102, 164, 214, .1);
+}
+
+.margin-0-pad-lr {
+    margin:0;
+    padding: 3px;
+}
+
+.mb-0 {
+    margin-bottom:0;
+}
+
+.mar-nil {
+    margin:0;
+}
+
+.pad-all {
+    padding:13px;
+}
+
+.headertext {
+    color: #92dbb5 !important;
+    font-family: 'Script MT';
+    font-weight: bold;
+    font-size: 7em !important;
+    vertical-align: middle!important;
+}
+
+.headersub {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+    font-size:60%;
+    vertical-align: middle;
+}
+
+.infoline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 3em;
+    color: Highlight !important;
+}
+
+.jess-footer {
+    color: #92dbb5;
+    min-height: 50px;
+    align-content: center;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    padding-top:15px;
+    margin-top:0;
+}
+
+.blurimage {
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.frame {
+    width: 315px;
+    height: 165px;
+    margin: 20px;
+    position: relative;
+}
+
+.fade {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.65) 100% );
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
