@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@*Bootstrap 3*@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" /><link href="~/Content/Site.css" rel="stylesheet" />
@@ -10,11 +11,21 @@
 <body>
 
     @RenderBody()
+
+    <!-- Lightbox Container -->
+    <!-- Dark background that will cover the entire screen -->
+    <div id="lightbox-container">
+        <p>Click anywhere to close</p>
+        <!-- Lightbox Content for Image -->
+        <!-- Container for our large image -->
+        <div id="lightbox-content"></div>
+    </div>
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-    <div class="text-center jess-footer mar-nil">
-        All images subject to copyright. Site by <a href="http://www.guru-solutions.net/">GURU Solutions LLC</a>
-    </div>
+    <footer class="text-center jess-footer mar-nil">
+        &copy; @DateTime.Now.Year <a href="http://www.guru-solutions.net/">GURU Solutions LLC</a>
+    </footer>
 </body>
 </html>

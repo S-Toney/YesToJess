@@ -1,6 +1,7 @@
 ﻿body {
-    padding-top: 0px;
-    padding-bottom: 20px;
+    margin: 0;
+    /*padding-top: 0;
+    padding-bottom: 20px;*/
     background-image: linear-gradient(to bottom right, black, purple,black,purple,black,purple);
 }
 
@@ -99,3 +100,37 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* Image Collection Display */
+section .collectionImg{
+    margin: 3%;
+    display: inline-block;
+    /*width: auto;*/
+}
+
+/* Lightbox  */
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+    overflow-x: scroll; /* This allows the lightbox to scroll down instead of the page scrolling behind it when the img drops below the fold */
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+    #lightbox-container img {
+        border: 10px solid gray;
+        margin: auto;
+    }

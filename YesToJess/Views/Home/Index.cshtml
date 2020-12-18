@@ -4,10 +4,10 @@
             <span class="align-middle">
                 <div class="row">
                     <div class="col-sm-7">
-                        <img class="img-responsive blurimage" src="~/images/jess026.jpg" />
+                        <img class="img-responsive blurimage" src="~/images/jess026lg.jpg" />
                     </div>
                     <div class="col-sm-5">
-                        <h1 class="row"><h1 class="headertext align-items-center">YES <br /> <span class="headersub">TO</span> <br /> JESS</h1></h1>
+                        <h1 class="row headertext align-items-center">YES <br /> <span class="headersub">TO</span> <br /> JESS</h1>
                         <br />
                         <div class="row">
                             <address class="infoline">
@@ -20,55 +20,62 @@
             </span>
         </div>
 
-        <h2 class="col-xs-12 text-primary">
+        <h2 class="col-xs-12"@*text-primary*@>
             I am thrilled to announce some upcoming work with 2 talented local Photographers!! We have 2 different concepts that we have been working on, and I am looking forward to the end product!<br /><br />
             If you are interested in booking with me, send me an email, and let's talk!
         </h2>
     </div>
     @* Photos *@
-    <div class="container-fluid bg-3 bg-blue bg-primary margin-0-pad-lr text-center">
-        <div class="pad-all">
+    <div class="container-fluid" @*bg-3 bg-blue bg-primary margin-0-pad-lr text-center*@>
+        <div @*class="pad-all"*@>
             <h3>Photos by Kevin Washington of Washhboy Photography | Makeup by Stevey Leigh Colonna</h3><br>
-            <div class="pad-all">
-                <div class="row ">
-                    <div class="col-sm-3 align-self-center">
+            <section @*class="pad-all"*@>
+                @*<div class="row">
+                        <div class="col"><img src="~/Images/jess001md.jpg" /></div>
+                        <div class="col"><img src="~/Images/jess018md (1).jpg" /></div>
+                        <div class="col"><img src="~/Images/jess026md.jpg" /></div>
+                        <div class="col"><img src="~/Images/jess046md (1).jpg" /></div>
+                    </div>*@
+                <div class="row text-center">
+                    <figure class="col-sm-6 col-md-4 col-lg-3 ">
+                        @*align-self-center*@
                         @*<p>Some text..</p>*@
-                        <img src="~/images/jess001.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
+                        <img src="~/images/jess001md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
                         @*<p>Some text..</p>*@
-                        <img src="~/images/jess046.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
+                        <img src="~/images/jess046md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
                         @*<p>Some text..</p>*@
-                        <img src="~/images/jess018.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
+                        <img src="~/images/jess018md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
                         @*<p>Some text..</p>*@
-                        <img src="~/images/jess049.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
+                        <img src="~/images/jess049md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    @*</div>*@
+                    @*</section>
+                        <section class="pad-all">*@
+                    @*<div class="row">*@
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
+                        @*<p>Some text..</p>*@
+                        <img src="~/images/jess021md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
+                        @*<p>Some text..</p>*@
+                        <img src="~/images/jess036md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
+                        @*<p>Some text..</p>*@
+                        <img src="~/images/jess017md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
+                    <figure class="col-sm-6 col-md-4 col-lg-3">
+                        @*<p>Some text..</p>*@
+                        <img src="~/images/jess007md.jpg" class="img-responsive collectionImg thumb" style="width:100%" alt="Image">
+                    </figure>
                 </div>
-            </div>
-            <div class="pad-all">
-                <div class="row">
-                    <div class="col-sm-3">
-                        @*<p>Some text..</p>*@
-                        <img src="~/images/jess021.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
-                        @*<p>Some text..</p>*@
-                        <img src="~/images/jess036.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
-                        @*<p>Some text..</p>*@
-                        <img src="~/images/jess017.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
-                        @*<p>Some text..</p>*@
-                        <img src="~/images/jess007.JPG" class="img-responsive" style="width:100%" alt="Image">
-                    </div>
-                </div>
-            </div>
+            </section>
             @*<h3>Photos by Kevin Washington of Washhboy Photography | Makeup by Stevey Leigh Colonna</h3><br>*@
             @*<div class="row">
                     <div class="col-sm-3">
@@ -91,7 +98,7 @@
 
         </div>
     </div>
-    <div class="text-center jess-footer mar-nil">
-        All images subject to copyright. Site by <a href="http://www.guru-solutions.net/">GURU Solutions LLC</a>
-    </div>
+    @*<div class="text-center jess-footer mar-nil">
+            All images subject to copyright. Site by <a href="http://www.guru-solutions.net/">GURU Solutions LLC</a>
+        </div>*@
 </div>
