@@ -5,6 +5,10 @@
     background-image: linear-gradient(to bottom right, black, purple,black,purple,black,purple);
 }
 
+.jumbotron{
+    background-color: transparent;
+}
+
 .grad {
     background-image: linear-gradient(to bottom right, black, purple,black,purple,black,purple);
 }
@@ -103,9 +107,12 @@ textarea {
 
 /* Image Collection Display */
 section .collectionImg{
-    margin: 3%;
+    margin: 7%;
     display: inline-block;
     /*width: auto;*/
+    width: 87%;
+    box-shadow: 7px 7px 7px rgba(255, 255, 255, .5);
+    border: 3px solid purple;
 }
 
 /* Lightbox  */
