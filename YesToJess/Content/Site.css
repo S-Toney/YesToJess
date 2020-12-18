@@ -7,6 +7,11 @@
 
 .jumbotron{
     background-color: transparent;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3%;
+    padding: 0;
 }
 
 .grad {
